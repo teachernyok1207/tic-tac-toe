@@ -1,0 +1,36 @@
+body { 
+    font-family: 'Press Start 2P', cursive;
+    background: #1A1919;
+}
+
+.game-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-title{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #97921C;
+}
+
+.game-text{
+    font-size: 0.75rem;
+    text-align: center;
+    color: #E6E166;
+}
+
+.game-square{
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.game-button{
+    display: flex;
+    cursor: pointer;
+    background: #E6E166;
+    border: 2px solid #97921C;
+    padding: 5px;
+    border-radius: 10px;
+}
